@@ -15,18 +15,32 @@
 
 .menu-primary {
     display: flex;
-    gap: 15px;
+    gap: 30px;
     align-items: center;
 }
 
-ul>li {
+nav ul>li {
     list-style: none;
+    padding: 20px;
+}
 
+nav :hover {
+    color: white;
+}
+
+nav li:hover {
+    background-color: rgb(38, 130, 235);
+
+
+}
+
+nav li:hover {
+    display: block;
 }
 
 li a {
     text-decoration: none;
-    color: rgb(24, 136, 234);
+    color: rgb(8, 8, 8);
     list-style: none;
     font-weight: 700;
     font-size: 20px;
@@ -39,10 +53,20 @@ li a {
     border: 0;
     padding: 0px 35px;
     height: 44px;
-    border-radius: 15px;
-    background: #dae3eb;
     align-items: center;
     text-decoration: none;
+    border-radius: 5px;
+    background: #1884e2;
+    text-decoration: none;
+}
+
+.btn-primary a {
+    text-decoration: none;
+    color: #fbfcfd;
+}
+
+.btn-primary i {
+    color: #fbfcfb;
 }
 
 /* Nav Menu Style End */
@@ -100,6 +124,7 @@ li a {
     align-items: center;
     text-decoration: none;
 }
+
 .btn-form {
     font-weight: 700;
     font-size: 20px;
@@ -114,8 +139,9 @@ li a {
 
 .btn-secondary a {
     text-decoration: none;
-    color:#1884e2;
+    color: #1884e2;
 }
+
 .btn-form a {
     text-decoration: none;
     color: white;
@@ -148,6 +174,10 @@ li a {
 .fail-description {
     font-weight: 300px;
     margin-bottom: 20px;
+}
+
+ul>li {
+    list-style: none;
 }
 
 i {
@@ -242,8 +272,8 @@ i {
 .footer-area {
     display: flex;
     position: absolute;
-    width: 1600px;
-    height: 577px;
+    width: 100%;
+    height: 480px;
     top: 2651.96px;
     background: black;
     color: white;
@@ -267,21 +297,35 @@ i {
 
 }
 
-.footer-title{
+.footer-title {
     font-weight: 700;
-    font-size: 40px;    
+    font-size: 40px;
     margin-bottom: 30px;
 }
-.email{
+
+.email {
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-#email-box{
+#email-box {
     width: 285px;
     margin-top: 20px;
     padding: 20px;
     border-radius: 10px;
-    background:none;
+    background: none;
     border: 1px solid gray
+}
+
+/* Footer Style End */
+
+/* Copyright Style */
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1140px;
+    height: 50px;
+    top: 3150px;
+    margin: 0px 230px;
 }
