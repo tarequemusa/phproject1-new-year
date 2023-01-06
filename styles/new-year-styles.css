@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Nav Menu Styles */
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+.menu-primary {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+ul>li {
+    list-style: none;
+
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(24, 136, 234);
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.btn-primary {
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 0px 35px;
+    height: 44px;
+    border-radius: 15px;
+    background: #dae3eb;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Nav Menu Style End */
+
+/* Banner Style Start */
+
+.banner {
+    background-image: url('../images/banner/banner3.png');
+    display: flex;
+    background-repeat: no-repeat;
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    height: 808px;
+
+}
+
+/* Banner Text Styles */
+.text-primary {
+    color: white;
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+
+}
+
+.banner-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.banner-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.btn-secondary {
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 0px 35px;
+    height: 60px;
+    border-radius: 5px;
+    background: #dae3eb;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn-secondary a {
+    text-decoration: none;
+}
+
+/* Fail Part Styles */
+.fail-part {
+    display: flex;
+    position: absolute;
+    width: 1072px;
+    height: 723.3px;
+    left: 180px;
+    top: 939px;
+}
+
+.fail-text {
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 660px;
+    top: 250px;
+}
+
+.fail-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.fail-description {
+    font-weight: 300px;
+    margin-bottom: 20px;
+}
+
+i {
+    color: #16D887;
+}
+
+/* Fail Part Style End */
+
+/* Plan Part Styles */
+
+.plan-section {
+    position: absolute;
+    width: 1141px;
+    height: 202.96px;
+    left: 180px;
+    top: 1889px;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    width: 1141px;
+    height: 202.96px;
+    
+    
+
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;    
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.plan-details {    
+    width: 300px;
+}
+
+.plan-logo{
+    margin-bottom: 20px;
+}
+
+.plan-sub{
+    margin-bottom: 20px;
+}
