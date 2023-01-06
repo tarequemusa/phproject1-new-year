@@ -317,6 +317,12 @@ i {
     border: 1px solid gray
 }
 
+.social-icon{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
 /* Footer Style End */
 
 /* Copyright Style */
