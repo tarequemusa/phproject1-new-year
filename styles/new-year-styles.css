@@ -273,8 +273,8 @@ i {
     display: flex;
     position: absolute;
     width: 100%;
-    height: 480px;
-    top: 2651.96px;
+    height: 580px;
+    top: 2700px;
     background: black;
     color: white;
 }
@@ -319,7 +319,7 @@ i {
 
 .social-icon{
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
     gap: 20px;
 }
 
@@ -332,6 +332,6 @@ i {
     position: absolute;
     width: 1140px;
     height: 50px;
-    top: 3150px;
+    top: 3300px;
     margin: 0px 230px;
 }
