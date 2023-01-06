@@ -96,13 +96,29 @@ li a {
     padding: 0px 35px;
     height: 60px;
     border-radius: 5px;
-    background: #dae3eb;
+    background: #fefeff;
+    align-items: center;
+    text-decoration: none;
+}
+.btn-form {
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 0px 35px;
+    height: 60px;
+    border-radius: 5px;
+    background: #1884e2;
     align-items: center;
     text-decoration: none;
 }
 
 .btn-secondary a {
     text-decoration: none;
+    color:#1884e2;
+}
+.btn-form a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Fail Part Styles */
@@ -146,7 +162,7 @@ i {
     position: absolute;
     width: 1141px;
     height: 202.96px;
-    left: 180px;
+    left: 250px;
     top: 1889px;
 }
 
@@ -157,26 +173,115 @@ i {
     position: absolute;
     width: 1141px;
     height: 202.96px;
-    
-    
-
 }
 
 .plan-title {
     font-weight: 700;
-    font-size: 40px;    
+    font-size: 40px;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.plan-details {    
+.plan-details {
     width: 300px;
 }
 
-.plan-logo{
+.plan-logo {
     margin-bottom: 20px;
 }
 
-.plan-sub{
+.plan-sub {
     margin-bottom: 20px;
+}
+
+/* Plan Part Style End */
+
+/* Positive Mindset Styles */
+.positive-section {
+    background-image: url('../images/watch.png'), url('../images/gradient1.png');
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2221.96px;
+}
+
+.positive {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+    justify-content: center;
+}
+
+.positive-title {
+    position: absolute;
+    width: 459px;
+    height: 182px;
+    left: 50px;
+    top: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 47px;
+    color: white
+}
+
+.positive-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.positive-button {
+    margin-top: 30px;
+}
+
+/* Positive Mindset Styles End */
+
+/* Footer Styles */
+.footer-area {
+    display: flex;
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    top: 2651.96px;
+    background: black;
+    color: white;
+}
+
+.contact {
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 240px;
+    top: 120px;
+
+}
+
+.form {
+    position: absolute;
+    width: 325px;
+    height: 204px;
+    left: 1000px;
+    top: 120px;
+
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 40px;    
+    margin-bottom: 30px;
+}
+.email{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#email-box{
+    width: 285px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background:none;
+    border: 1px solid gray
 }
